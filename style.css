@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    border: 2px solid;
+    display: flex;
+}
+
+span {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+
+}
+
+.one {
+    background: #ffc000;
+}
+.two {
+    background: #ff8000;
+}
+.three {
+    background: #ff0000;
+}
+.four {
+    background: #ff0080;
+}
+.five {
+    background: #0080ff;
+}
+.six {
+    background: #008080;
+}
