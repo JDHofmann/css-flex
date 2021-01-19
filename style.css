@@ -4,10 +4,10 @@
 }
 
 .flex-container {
-    border: .5vmin solid;
+    border: .25vmax solid;
     display: flex;
     margin: 2vh auto;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .flex-reverse {
@@ -27,21 +27,21 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 7vmin;
+    font-size: 4vmax;
 }
 
 h2 {
-    font-size: 5vmin;
+    font-size: 3vmax;
 }
 
 span {
     display: flex;
-    height: 15vmin;
-    width: 15vmin;
-    border: .5vmin solid;
+    height: 10vmax;
+    width: 10vmax;
+    border: .25vmax solid;
     justify-content: center;
     align-items: center;
-    font-size: 5vmin;
+    font-size: 4vmax;
 }
 
 .one {
