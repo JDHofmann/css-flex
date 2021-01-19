@@ -26,11 +26,13 @@ h1, h2 {
 }
 
 span {
-    display: block;
+    display: flex;
     height: 100px;
     width: 100px;
     border: 2px solid;
-
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 
 .one {
