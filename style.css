@@ -13,6 +13,14 @@
     flex-direction: row-reverse;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
 h1, h2 {
     text-align: center;
 }
