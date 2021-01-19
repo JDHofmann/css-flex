@@ -4,7 +4,7 @@
 }
 
 .flex-container {
-    border: 2px solid;
+    border: .5vmin solid;
     display: flex;
     margin: 2vh auto;
     flex-wrap: wrap;
@@ -26,14 +26,22 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    font-size: 7vmin;
+}
+
+h2 {
+    font-size: 5vmin;
+}
+
 span {
     display: flex;
     height: 15vmin;
     width: 15vmin;
-    border: 2px solid;
+    border: .5vmin solid;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 5vmin;
 }
 
 .one {
