@@ -1,10 +1,20 @@
 * {
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .flex-container {
     border: 2px solid;
     display: flex;
+    margin: 2vh auto;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 span {
